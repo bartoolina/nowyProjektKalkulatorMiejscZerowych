@@ -24,8 +24,10 @@ namespace nowyProjektKalkulatorMiejscZerowych
 
             Console.WriteLine("Delta = {0}.", delta);
 
-            x1 = -b - Math.Sqrt(delta) / 2 * a;
-            x2 = -b + Math.Sqrt(delta) / 2 * a;
+            //x1 = -b - Math.Sqrt(delta) / 2 * a;
+            x1 = ( -b - Math.Sqrt(delta) )/ ( 2 * a);
+            //x2 = -b + Math.Sqrt(delta) / 2 * a;
+            x2 = ( -b + Math.Sqrt(delta) ) / ( 2 * ab);
             x0 = -b / 2 * a;
 
             if (delta > 0)
